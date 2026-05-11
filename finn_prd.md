@@ -328,4 +328,4 @@ erDiagram
 - `chat_history` is persisted per user so Finn maintains context across sessions without requiring the client to store conversation state
 - All primary keys are UUIDs to prevent sequential ID enumeration attacks
 - `tx_date` is `DATE` not `TIMESTAMPTZ` — time-of-day precision is not needed for personal financial tracking
-- Neon's HTTP-based driver is safe in Next.js Edge runtime and serverless functions where persistent TCP connections are not supported
+- Neon's HTTP-based driver is safe in Next.js Edge runtime and serverless functions where persistent TCP connections are not supported\n## Project Status\n- Initial implementation completed and pushed to main.
